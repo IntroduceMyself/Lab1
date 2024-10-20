@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand,
+.btn-outline-dark {
+    align-self: center;
+}
+
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+@media (min-width: 1000px) {
+    .nav-home-custom {
+        margin-left: 60px;
+    }
+
+    .custom {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:768px) {
+   .text {
+        
+        margin: 0px 40px;
+        white-space: normal; 
+        text-align: center; 
+    }
+}
